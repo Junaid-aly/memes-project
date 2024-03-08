@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+.inputField input{
+    border-radius: 8px;
+    outline: 0;
+    padding: 10px;
+    margin-right: 10px;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.user-Img img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+.user-Img{
+    background: #1f26328e;
+    /* border: 4px solid red; */
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.user-Img h2{
+    color: white;
+    padding: 10px;
+}
+.inputField{
+    margin-left: 10px;
+}
+.body{
+    background: url("https://thumbs.dreamstime.com/b/wallpaper-background-yellow-emoji-spheres-ai-generated-273275893.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.containerMeme{
+    width: 30vw;
+    margin: auto;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+}
+.main-card{
+    box-sizing: border-box;
+    text-align:center;
+}
+.main-card img{
+    width: 300px;
+    height: 320px;
+    margin-left: -50px;
+ 
+}
+/* .h2{
+    color: white;
+    margin-top: 10px;
+} */
+.gen-btn{
+    padding: 18px;
+    border: 0;
+    width: 200px;
+    margin: 10px;
+    background: rgb(89, 89, 206);
+    border-radius: 7px;
+    font-size: 19px;
+    border-bottom: 1px solid gray;
+}
