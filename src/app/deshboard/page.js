@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link';
 import './App.css'
+import Image from "next/image";
+
 
 async function  Memes() {
 const res = await fetch("https://api.imgflip.com/get_memes");
@@ -17,7 +19,7 @@ const allMemes = response.data.memes
             key={index}
             className="m-5 card-data  rounded-lg shadow-2xl block  bg-white w-100">
             <div className="img-dev">
-              <img src={object.url} />
+              <image src={object.url} />
             </div>
             {/* <h2>{object.name}</h2> */}
             <div className="content">

@@ -1,5 +1,6 @@
 import React from 'react'
 import './page.css'
+import Image from "next/image";
 
 function Details(props) {
      const { searchParams } = props;
@@ -8,7 +9,7 @@ function Details(props) {
       <div className="container-details">
         {!fetchApi ? (
           <div className="main-card">
-            <img src={searchParams.imgUrl}/>
+            <Image src={searchParams.imgUrl}/>
             <div className="inputField">
               <input
                 type="text"
@@ -34,7 +35,7 @@ function Details(props) {
               <div className="">
                 <h2>Happy Hacking!!</h2>
               </div>
-              <img src={fetchApi} />
+              <Image src={fetchApi} />
             </div>
           </>
         )}
